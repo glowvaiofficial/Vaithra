@@ -1,208 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Launch AV | Brainstorm Session</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            scroll-behavior: smooth;
-        }
-        .snap-container {
-            scroll-snap-type: y mandatory;
-            height: 100vh;
-            overflow-y: scroll;
-        }
-        .snap-section {
-            scroll-snap-align: start;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 2rem;
-        }
-        .glass {
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .orange-glow {
-            box-shadow: 0 0 30px rgba(255, 95, 31, 0.2);
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Digitalism Brainstorm Session</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<style>
+body {
+  font-family: Inter, sans-serif;
+}
+.snap {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.slide {
+  scroll-snap-align: start;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+</style>
 </head>
+
 <body class="bg-[#0a0a0a] text-white">
 
-    <div class="snap-container">
-        
-        <section class="snap-section relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-96 h-96 bg-orange-600 rounded-full blur-[120px] opacity-20 -mr-48 -mt-48"></div>
-            <div class="max-w-6xl mx-auto w-full z-10 text-center">
-                [span_0](start_span)<p class="text-orange-500 font-bold tracking-[0.3em] uppercase mb-4 text-sm">Vaivaanith × Vishvarupa Creations[span_0](end_span)</p>
-                <h1 class="text-8xl md:text-9xl font-black tracking-tighter mb-6">LAUNCH <span class="text-orange-500">AV</span></h1>
-                [span_1](start_span)<p class="text-2xl text-gray-400 font-light">Digitalism Brainstorm Session • 01/01/2026[span_1](end_span)</p>
-            </div>
-            <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-                <i data-lucide="chevron-down" class="text-orange-500"></i>
-            </div>
-        </section>
+<div class="snap">
 
-        <section class="snap-section bg-[#0f0f0f]">
-            <div class="max-w-5xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h2 class="text-5xl font-black mb-6">THE PROBLEM</h2>
-                    <p class="text-xl text-gray-400 leading-relaxed mb-8">
-                        [span_2](start_span)Our current website is outdated, resulting in a high bounce rate and low conversion rates.[span_2](end_span) [span_3](start_span)Improving performance directly impacts business growth.[span_3](end_span)
-                    </p>
-                    <div class="p-6 glass rounded-2xl border-l-4 border-orange-500">
-                        <p class="font-bold text-orange-500 mb-2">Primary Goal</p>
-                        [span_4](start_span)<p class="text-lg">Improve user experience and drive sales.[span_4](end_span)</p>
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 gap-4">
-                    <div class="p-4 glass rounded-xl flex items-center gap-4">
-                        <i data-lucide="leaf" class="text-orange-500"></i>
-                        [span_5](start_span)<span>Eco-friendly market segment[span_5](end_span)</span>
-                    </div>
-                    <div class="p-4 glass rounded-xl flex items-center gap-4">
-                        <i data-lucide="users" class="text-orange-500"></i>
-                        [span_6](start_span)<span>Boost employee satisfaction[span_6](end_span)</span>
-                    </div>
-                    <div class="p-4 glass rounded-xl flex items-center gap-4">
-                        <i data-lucide="trending-up" class="text-orange-500"></i>
-                        [span_7](start_span)<span>Strengthen customer relationships[span_7](end_span)</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- SLIDE 1 : TITLE -->
+<section class="slide text-center">
+  <div>
+    <p class="text-orange-500 tracking-widest uppercase mb-4">
+      Vaivaanith × Vishvarupa Creations
+    </p>
+    <h1 class="text-8xl font-black">
+      Digitalism <span class="text-orange-500">Brainstorm</span>
+    </h1>
+    <p class="text-gray-400 mt-6">
+      White & Orange Modern Strategy Session
+    </p>
+  </div>
+</section>
 
-        <section class="snap-section">
-            <div class="max-w-6xl mx-auto w-full">
-                <h2 class="text-center text-4xl font-bold mb-16 italic uppercase tracking-widest">Target Audience</h2>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div class="text-center p-8 glass rounded-3xl hover:bg-orange-500 transition-all duration-500 group">
-                        <i data-lucide="smartphone" class="mx-auto mb-4 text-orange-500 group-hover:text-white"></i>
-                        [span_8](start_span)<p class="font-bold">Aged 17-50[span_8](end_span)</p>
-                    </div>
-                    <div class="text-center p-8 glass rounded-3xl hover:bg-orange-500 transition-all duration-500 group">
-                        <i data-lucide="video" class="mx-auto mb-4 text-orange-500 group-hover:text-white"></i>
-                        [span_9](start_span)<p class="font-bold">Content Creators[span_9](end_span)</p>
-                    </div>
-                    <div class="text-center p-8 glass rounded-3xl hover:bg-orange-500 transition-all duration-500 group">
-                        <i data-lucide="cpu" class="mx-auto mb-4 text-orange-500 group-hover:text-white"></i>
-                        [span_10](start_span)<p class="font-bold">Tech-Savvy[span_10](end_span)</p>
-                    </div>
-                    <div class="text-center p-8 glass rounded-3xl hover:bg-orange-500 transition-all duration-500 group">
-                        <i data-lucide="award" class="mx-auto mb-4 text-orange-500 group-hover:text-white"></i>
-                        [span_11](start_span)<p class="font-bold">Ethical Sourcing[span_11](end_span)</p>
-                    </div>
-                </div>
-                [span_12](start_span)<p class="text-center mt-12 text-gray-500 font-mono">"SIMPLE. IT'S YOU WHO VISITED OUR WEBSITE"[span_12](end_span)</p>
-            </div>
-        </section>
+<!-- SLIDE 2 : PROBLEM -->
+<section class="slide">
+  <div class="max-w-4xl">
+    <h2 class="text-5xl font-black mb-6">The Problem</h2>
+    <p class="text-gray-400 text-xl">
+      Our current website is outdated, leading to high bounce rates and low conversions.
+      Since our website is our primary storefront, improving it directly impacts growth.
+    </p>
+  </div>
+</section>
 
-        <section class="snap-section bg-orange-500 text-black">
-            <div class="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-20">
-                <div>
-                    <h2 class="text-5xl font-black mb-8 uppercase">Boundaries</h2>
-                    <div class="space-y-6">
-                        <div class="flex justify-between border-b border-black pb-2">
-                            <span class="font-bold">Budget</span>
-                            [span_13](start_span)<span>$50,000[span_13](end_span)</span>
-                        </div>
-                        <div class="flex justify-between border-b border-black pb-2">
-                            <span class="font-bold">Timeline</span>
-                            [span_14](start_span)<span>Launch 16th Oct 2025[span_14](end_span)</span>
-                        </div>
-                        <div class="flex justify-between border-b border-black pb-2">
-                            <span class="font-bold">Resources</span>
-                            [span_15](start_span)<span>Internal Team + Freelancers[span_15](end_span)</span>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h2 class="text-5xl font-black mb-8 uppercase">Rules</h2>
-                    <ul class="space-y-4 font-bold text-xl">
-                        [span_16](start_span)<li>• Defer Judgment[span_16](end_span)</li>
-                        [span_17](start_span)<li>• Encourage Wild Ideas[span_17](end_span)</li>
-                        [span_18](start_span)<li>• Build on Others' Ideas[span_18](end_span)</li>
-                        [span_19](start_span)<li>• One Conversation at a Time[span_19](end_span)</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+<!-- SLIDE 3 : GOALS -->
+<section class="slide">
+  <div class="max-w-5xl grid md:grid-cols-2 gap-8">
+    <div class="glass p-8 rounded-xl">Improve user experience & drive sales</div>
+    <div class="glass p-8 rounded-xl">Capture eco-friendly market segment</div>
+    <div class="glass p-8 rounded-xl">Improve employee productivity</div>
+    <div class="glass p-8 rounded-xl">Strengthen customer relationships</div>
+  </div>
+</section>
 
-        <section class="snap-section bg-[#0a0a0a]">
-            <div class="max-w-4xl mx-auto w-full">
-                <h2 class="text-4xl font-bold mb-12 flex items-center gap-4">
-                    <i data-lucide="calendar" class="text-orange-500"></i> Session Agenda
-                </h2>
-                <div class="space-y-8">
-                    <div class="flex gap-8 items-start">
-                        <span class="text-orange-500 font-mono pt-1">02:00 PM</span>
-                        <div>
-                            [span_20](start_span)<h4 class="text-xl font-bold">Introduction & Event Overview[span_20](end_span)</h4>
-                            <p class="text-gray-400">Setting the context and defining needs.</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-8 items-start">
-                        <span class="text-orange-500 font-mono pt-1">02:30 PM</span>
-                        <div>
-                            [span_21](start_span)<h4 class="text-xl font-bold">Speakers Session[span_21](end_span)</h4>
-                            <p class="text-gray-400">Key insights from industry leads.</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-8 items-start">
-                        <span class="text-orange-500 font-mono pt-1">03:00 PM</span>
-                        <div>
-                            [span_22](start_span)<h4 class="text-xl font-bold">Networking & Future Plans[span_22](end_span)</h4>
-                            <p class="text-gray-400">Building connections and closing thoughts.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- SLIDE 4 : TARGET AUDIENCE -->
+<section class="slide text-center">
+  <div>
+    <h2 class="text-5xl font-black mb-8">Target Audience</h2>
+    <p class="text-xl text-gray-400 mb-6">
+      SIMPLE. IT’S YOU WHO VISITED OUR WEBSITE
+    </p>
+    <p class="text-orange-500 font-bold">
+      Thynk Unlimited • Eco Clean Project
+    </p>
+  </div>
+</section>
 
-        <section class="snap-section text-center relative overflow-hidden">
-            <div class="absolute inset-0 bg-orange-500/5"></div>
-            <div class="z-10">
-                <h2 class="text-7xl font-black mb-8">READY?</h2>
-                <button class="bg-orange-500 hover:bg-orange-600 text-black font-black px-12 py-5 rounded-full text-2xl transition-all hover:scale-110 active:scale-95 orange-glow">
-                    [span_23](start_span)UNLEASH CREATIVITY[span_23](end_span)
-                </button>
-                <p class="mt-12 text-gray-500 uppercase tracking-widest cursor-pointer hover:text-orange-500 transition-colors">
-                    [span_24](start_span)Any Questions?[span_24](end_span)
-                </p>
-            </div>
-        </section>
+<!-- SLIDE 5 : BOUNDARIES -->
+<section class="slide bg-orange-500 text-black">
+  <div class="max-w-4xl w-full">
+    <h2 class="text-5xl font-black mb-8">Defining Our Boundaries</h2>
 
+    <div class="space-y-4 text-xl">
+      <div class="flex justify-between border-b pb-2">
+        <span>Budget</span><span>$50,000</span>
+      </div>
+      <div class="flex justify-between border-b pb-2">
+        <span>Timeline</span><span>Launch by 16 Oct 2025</span>
+      </div>
+      <div class="flex justify-between border-b pb-2">
+        <span>Resources</span><span>Internal Team + Freelancers</span>
+      </div>
     </div>
+  </div>
+</section>
 
-    <script>
-        // Initialize Icons
-        lucide.createIcons();
+<!-- SLIDE 6 : FOCUS AREA -->
+<section class="slide">
+  <div class="max-w-5xl">
+    <h2 class="text-5xl font-black mb-6">Focus Areas</h2>
+    <ul class="list-disc text-gray-400 text-xl pl-6 space-y-3">
+      <li>Improve navigation & user flow</li>
+      <li>Modern, brand-aligned visual design</li>
+      <li>Conversion-focused content strategy</li>
+      <li>Fully responsive experience</li>
+    </ul>
+  </div>
+</section>
 
-        // Optional: Simple scroll reveal effect
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('opacity-100');
-                    entry.target.classList.remove('opacity-0');
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, { threshold: 0.1 });
+<!-- SLIDE 7 : TECHNIQUES -->
+<section class="slide">
+  <div class="max-w-5xl grid md:grid-cols-3 gap-6">
+    <div class="glass p-6 rounded-xl">
+      <h3 class="font-bold mb-2">Brain Writing</h3>
+      <p class="text-gray-400">Anonymous idea expansion</p>
+    </div>
+    <div class="glass p-6 rounded-xl">
+      <h3 class="font-bold mb-2">Round Robin</h3>
+      <p class="text-gray-400">Everyone contributes equally</p>
+    </div>
+    <div class="glass p-6 rounded-xl">
+      <h3 class="font-bold mb-2">Mind Mapping</h3>
+      <p class="text-gray-400">Visual idea connections</p>
+    </div>
+  </div>
+</section>
 
-        document.querySelectorAll('section').forEach(section => {
-            section.classList.add('transition-all', 'duration-1000', 'opacity-0');
-            section.style.transform = 'translateY(20px)';
-            observer.observe(section);
-        });
-    </script>
+<!-- SLIDE 8 : GUIDELINES -->
+<section class="slide bg-[#0f0f0f]">
+  <div class="max-w-4xl">
+    <h2 class="text-5xl font-black mb-6">Brainstorming Guidelines</h2>
+    <ul class="space-y-3 text-xl">
+      <li>Defer judgment</li>
+      <li>Encourage wild ideas</li>
+      <li>Build on each other’s ideas</li>
+      <li>One conversation at a time</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SLIDE 9 : AGENDA -->
+<section class="slide">
+  <div class="max-w-5xl">
+    <h2 class="text-5xl font-black mb-6">Session Agenda</h2>
+    <ul class="space-y-4 text-gray-400 text-xl">
+      <li>02:00 – 02:30 PM : Introduction & Overview</li>
+      <li>02:30 – 03:00 PM : Speaker Session</li>
+      <li>03:00 PM onward : Networking & Future Plans</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SLIDE 10 : OUTCOMES -->
+<section class="slide">
+  <div class="max-w-5xl">
+    <h2 class="text-5xl font-black mb-6">Expected Outcomes</h2>
+    <ul class="list-disc pl-6 text-xl text-gray-400 space-y-3">
+      <li>Prioritized UX & design ideas</li>
+      <li>Comprehensive mind map</li>
+      <li>Clear next-step action plan</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SLIDE 11 : START -->
+<section class="slide text-center">
+  <div>
+    <h2 class="text-7xl font-black mb-8">Brainstorming</h2>
+    <p class="text-gray-400 mb-6">
+      Any questions before we start?
+    </p>
+    <button class="bg-orange-500 text-black font-black px-10 py-4 rounded-full text-2xl">
+      START NOW
+    </button>
+  </div>
+</section>
+
+</div>
+
+<script>
+lucide.createIcons();
+</script>
+
 </body>
 </html>
